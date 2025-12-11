@@ -1,0 +1,7 @@
+server:
+  port: 8030
+
+application:
+  secret-key: secret-key
+  upload-url: http://localhost:8080/upload.php
+  view-url: http://localhost:8080/view.php?id=%s

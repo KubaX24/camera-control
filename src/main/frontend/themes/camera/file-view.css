@@ -1,0 +1,48 @@
+#file-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+
+    .image-preview {
+        width: 250px;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+
+        background-color: var(--lumo-contrast-10pct);
+        padding: 8px;
+        border-radius: 12px;
+
+        img {
+            align-self: center;
+            width: 95%;
+            border-radius: 5px;
+        }
+
+        .image-preview-info {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            width: 100%;
+            margin-top: auto;
+
+            .image-preview-size {
+                background-color: var(--lumo-primary-color-10pct);
+                color: var(--lumo-primary-text-color);
+                padding: 2px 4px;
+                border-radius: 4px;
+                font-size: .8rem;
+            }
+
+            .share-button {
+                margin-left: auto;
+            }
+        }
+    }
+}
+
+#folder-layout {
+    flex-wrap: wrap;
+}

@@ -1,0 +1,9 @@
+@import "header.css";
+@import "file-view.css";
+@import "studio-view.css";
+
+:root {
+    --lumo-size-m: 2rem;
+    --lumo-size-s: 1.7rem;
+    font-size: .94rem;
+}
